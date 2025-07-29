@@ -85,6 +85,7 @@ git remote add origin https://github.com/username/repository-name.git
 
 # Push to GitHub
 git branch -M main                 # Rename branch to main (optional)
+git pull origin main               # Fetch and merge remote changes
 git push -u origin main            # First push with upstream tracking
 ```
 
